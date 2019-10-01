@@ -12,7 +12,7 @@ edition = "2018"
 
 [dependencies]
 js-sys = "0.3.27"
-wasm-bindgen = { version = "0.2.50", features = ["serde-serialize", "nightly"]  }
+wasm-bindgen = { version = "0.2.50" }
 wasm-bindgen-futures = "0.4.1"
 wasm-bindgen-test = "0.3.1"
 
