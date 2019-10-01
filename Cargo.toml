@@ -1,0 +1,23 @@
+[package]
+name = "w_bindgen_test_run_timeout"
+version = "0.1.0"
+authors = ["Artem Pikulin <ortgma@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "w_bindgen_test_run_timeout"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+js-sys = "0.3.27"
+wasm-bindgen = { version = "0.2.50", features = ["serde-serialize", "nightly"]  }
+wasm-bindgen-futures = "0.4.1"
+wasm-bindgen-test = "0.3.1"
+
+[dependencies.web-sys]
+version = "0.3.4"
+features = [
+  'console',
+]
